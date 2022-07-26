@@ -1,0 +1,45 @@
+#!/usr/bin/env python
+
+import random
+
+def anopangalanmo():
+    
+    name = input("Anong pangalan mo? : ")
+                
+    if name[:1] == "j":
+            print("nag sisimula sa j, Di ka kontento sa isang jowa!")
+    elif name[:1] == "k":
+            print("Ahy loyal to!")
+    else:
+            print("tatanda kang single.")
+
+def mayjowaka():
+
+    jowa = input("may jowa ka ngayon? ")
+
+    if jowa[:1] == "w":
+            print("hina mo naman! ano hinihintay mo? ex mo?!!!")
+    elif jowa[:1] == "m":
+            print("Naks, Sanaol! Mag bbreak din naman kayo! dont worry 🙂 ")
+    else:
+            print("okay!")
+
+def ilannajowamo():
+
+    ilan = int(input("Naka ilang jowa ka na? "))
+
+    if ilan == 1:
+            print("boring! double time aba!")
+    elif ilan == 2:
+            print("Okay keep up!")
+    elif ilan == 3:
+            print("pwede na din!")
+    elif ilan == 4:
+            print("mag seryoso ka naman")
+    elif ilan > 4:
+            print("lakas mo!! kakarmahin ka din!")
+
+
+anopangalanmo()
+mayjowaka()
+ilannajowamo()
